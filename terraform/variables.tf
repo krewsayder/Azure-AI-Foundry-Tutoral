@@ -37,5 +37,5 @@ variable "embedding_model_version" {
 variable "embedding_capacity" {
   description = "Capacity (throughput) for embedding deployment in thousands of tokens per minute"
   type        = number
-  default     = 1
+  default     = 50
 }
